@@ -7,7 +7,7 @@
 
 TARGET = test
 CC = icc
-CFLAGS = -I/$(MYLIB)/include/
+CFLAGS = -mavx -I/$(MYLIB)/include/
 
 OBJ = pi.o
 
